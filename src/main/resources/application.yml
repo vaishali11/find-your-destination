@@ -1,0 +1,16 @@
+spring:
+  jpa:
+      database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+      show-sql: true
+      hibernate.ddl-auto: none
+      open-in-view: false
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    continue-on-error: true
+    initialize: true
+    url: jdbc:mariadb://bfjrxdpxrza9qllq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/bmivm5jebb9pwpk1
+    username: yfwr2wtujh9u4kid
+    password: y3xzju0me4k7ylab
+    
+    
+    
