@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fyd.domain.DataProcessingRequestDomain;
-import com.fyd.domain.DataProcessingResponseDomain;
+import com.fyd.domain.DataProcessingRequest;
+import com.fyd.domain.DataProcessingResponse;
 import com.fyd.service.DataProcessingService;
 
 @RestController
@@ -21,9 +21,10 @@ public class DataProcessingController {
 	
 	@RequestMapping(value = "/processData", method = RequestMethod.POST, 
 			consumes = MediaType.APPLICATION_JSON_UTF8_VALUE, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-	public DataProcessingResponseDomain processData(@RequestBody @Valid DataProcessingRequestDomain request) {
+	public DataProcessingResponse processData(@RequestBody @Valid DataProcessingRequest request) {
 		return dService.processData(request);
 		
 	}
+
 	
 }

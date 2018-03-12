@@ -7,12 +7,12 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class VacationTypeDomain {
+public class GroupTypeDomain {
 	
-	private Long vacationTypeId;
-	
-	private String vacationTypeCode;
-	
-	private String vacationTypeDesc;
+	private Long groupTypeId;
+
+	private String groupTypeCode;
+
+	private String groupTypeDesc;
 	
 }

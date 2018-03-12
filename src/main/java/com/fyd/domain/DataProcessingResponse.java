@@ -6,7 +6,7 @@ import java.util.List;
 import lombok.Data;
 
 @Data
-public class DataProcessingResponseDomain {
+public class DataProcessingResponse {
 	private String vacationType;
 	private Country country;
 	private State state;

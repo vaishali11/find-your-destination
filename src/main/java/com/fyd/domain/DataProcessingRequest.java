@@ -14,7 +14,7 @@ import lombok.ToString;
 @Data
 @ToString
 @EqualsAndHashCode(exclude = {"startDate", "endDate"}, callSuper = false)
-public class DataProcessingRequestDomain{
+public class DataProcessingRequest{
 	@NotNull(message ="Vacation type can not be null")
 	@Size(max =3, min =3)
 	private String vacationType;
