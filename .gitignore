@@ -20,12 +20,6 @@
 *.tar
 *.zip
 
-# Maven files #
-###############
-mvnw
-mvnw.cmd
-
-
 # Logs and databases #
 ######################
 *.log
@@ -51,6 +45,10 @@ Thumbs.db
 target/
 build/
 
+
+# tomcat work directory
+work/
+
 # IntelliJ specific files/directories
 out
 .idea
@@ -64,7 +62,12 @@ atlassian-ide-plugin.xml
 .project
 .settings
 .metadata
+.factorypath
+.springBeans
+.pid
 bin/
 
 # NetBeans specific files/directories
 .nbattrs
+
+
