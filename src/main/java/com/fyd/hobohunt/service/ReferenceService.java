@@ -1,4 +1,4 @@
-package com.fyd.service;
+package com.fyd.hobohunt.service;
 
 import java.util.List;
 
@@ -6,14 +6,14 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.fyd.domain.DestinationTypeDomain;
-import com.fyd.domain.GroupTypeDomain;
-import com.fyd.domain.MoodTypeDomain;
-import com.fyd.domain.VacationTypeDomain;
-import com.fyd.repository.DestinationTypesRepository;
-import com.fyd.repository.GroupTypesRepository;
-import com.fyd.repository.MoodTypesRepository;
-import com.fyd.repository.VacationTypesRepository;
+import com.fyd.hobohunt.domain.DestinationTypeDomain;
+import com.fyd.hobohunt.domain.GroupTypeDomain;
+import com.fyd.hobohunt.domain.MoodTypeDomain;
+import com.fyd.hobohunt.domain.VacationTypeDomain;
+import com.fyd.hobohunt.repository.DestinationTypesRepository;
+import com.fyd.hobohunt.repository.GroupTypesRepository;
+import com.fyd.hobohunt.repository.MoodTypesRepository;
+import com.fyd.hobohunt.repository.VacationTypesRepository;
 
 import lombok.extern.slf4j.Slf4j;
 

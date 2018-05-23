@@ -1,4 +1,4 @@
-package com.fyd.repository;
+package com.fyd.hobohunt.repository;
 
 import java.util.List;
 
@@ -7,13 +7,13 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.fyd.domain.DestinationTypeDomain;
-import com.fyd.entity.DestinationTypes;
+import com.fyd.hobohunt.domain.DestinationTypeDomain;
+import com.fyd.hobohunt.entity.DestinationTypes;
 
 @Repository
 public interface DestinationTypesRepository extends JpaRepository<DestinationTypes, Long> {
 
-	String DEFAULT_QUERY = "SELECT new com.fyd.domain.DestinationTypeDomain(d.destinationTypeId, "
+	String DEFAULT_QUERY = "SELECT new com.fyd.hobohunt.domain.DestinationTypeDomain(d.destinationTypeId, "
 			+ "d.destinationTypeCode, d.destinationTypeDesc) FROM DestinationTypes d";
 
 	@Query(DEFAULT_QUERY + " WHERE d.destinationTypeCode = :destinationTypeCode")

@@ -1,12 +1,12 @@
-package com.fyd.service;
+package com.fyd.hobohunt.service;
 
 import java.util.HashSet;
 import java.util.Set;
 
 import org.springframework.stereotype.Service;
 
-import com.fyd.domain.DataProcessingRequest;
-import com.fyd.domain.DataProcessingResponse;
+import com.fyd.hobohunt.domain.DataProcessingRequest;
+import com.fyd.hobohunt.domain.DataProcessingResponse;
 
 import lombok.extern.slf4j.Slf4j;
 

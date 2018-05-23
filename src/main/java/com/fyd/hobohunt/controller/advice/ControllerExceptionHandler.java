@@ -1,4 +1,4 @@
-package com.fyd.controller.advice;
+package com.fyd.hobohunt.controller.advice;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import com.fyd.domain.ErrorObject;
+import com.fyd.hobohunt.domain.ErrorObject;
 
 import lombok.extern.slf4j.Slf4j;
 

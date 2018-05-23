@@ -10,6 +10,9 @@ spring:
     driver-class-name: org.mariadb.jdbc.Driver
     continue-on-error: true
     initialization-mode: embedded
-    url: jdbc:mariadb://bfjrxdpxrza9qllq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/bmivm5jebb9pwpk1
-    username: yfwr2wtujh9u4kid
-    password: y3xzju0me4k7ylab
+#    url: jdbc:mariadb://bfjrxdpxrza9qllq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/bmivm5jebb9pwpk1
+#    username: yfwr2wtujh9u4kid
+#    password: y3xzju0me4k7ylab
+    url: jdbc:mariadb://localhost:3306/hobohunt
+    username: root
+    password: 

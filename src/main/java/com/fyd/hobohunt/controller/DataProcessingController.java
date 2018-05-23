@@ -1,4 +1,4 @@
-package com.fyd.controller;
+package com.fyd.hobohunt.controller;
 
 import javax.validation.Valid;
 
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fyd.domain.DataProcessingRequest;
-import com.fyd.domain.DataProcessingResponse;
-import com.fyd.service.DataProcessingService;
+import com.fyd.hobohunt.domain.DataProcessingRequest;
+import com.fyd.hobohunt.domain.DataProcessingResponse;
+import com.fyd.hobohunt.service.DataProcessingService;
 
 @RestController
 @RequestMapping("/v1/process")

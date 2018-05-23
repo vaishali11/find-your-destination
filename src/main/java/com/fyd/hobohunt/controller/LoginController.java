@@ -1,4 +1,4 @@
-package com.fyd.controller;
+package com.fyd.hobohunt.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 

@@ -1,4 +1,4 @@
-package com.fyd.controller;
+package com.fyd.hobohunt.controller;
 
 import java.util.List;
 
@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fyd.domain.DestinationTypeDomain;
-import com.fyd.domain.GroupTypeDomain;
-import com.fyd.domain.MoodTypeDomain;
-import com.fyd.domain.VacationTypeDomain;
-import com.fyd.service.ReferenceService;
+import com.fyd.hobohunt.domain.DestinationTypeDomain;
+import com.fyd.hobohunt.domain.GroupTypeDomain;
+import com.fyd.hobohunt.domain.MoodTypeDomain;
+import com.fyd.hobohunt.domain.VacationTypeDomain;
+import com.fyd.hobohunt.service.ReferenceService;
 
 @RestController
 @RequestMapping("/v1/reference/")

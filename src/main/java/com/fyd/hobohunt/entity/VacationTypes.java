@@ -1,4 +1,4 @@
-package com.fyd.entity;
+package com.fyd.hobohunt.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
